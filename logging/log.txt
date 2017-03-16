@@ -1,0 +1,3 @@
+17:30:04.007 [main] TRACE xyy.java.note.logging.log4j2.Bar - Enter
+17:30:04.013 [main] ERROR xyy.java.note.logging.log4j2.Bar - Did it again!
+17:30:04.014 [main] TRACE xyy.java.note.logging.log4j2.Bar - Exit with(false)

@@ -5,17 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>xyy.java.note</groupId>
-    <artifactId>java-note</artifactId>
+    <artifactId>multi-thread</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
 
-    <modules>
-        <module>springframeworknote</module>
-        <module>httpcomponents</module>
-        <module>design-mode</module>
-        <module>algorithm</module>
-        <module>db-jdbc</module>
-        <module>db-mybatis</module>
-        <module>logging</module>
-    </modules>
+
 </project>

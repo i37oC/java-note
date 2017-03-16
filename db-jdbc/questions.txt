@@ -1,0 +1,16 @@
+1、事物提交与回滚
+一个事物如下
+1、insert table a
+2、insert table b
+当程序
+Connection conn = DBUtil.getConnect();
+conn.setAutoCommit(false);
+try{
+    insert table a;
+    insert table b;
+    conn.commit();
+}(){
+    conn.rollback();
+}
+当代码执行至 insert table a; 后;数据库是否在 表a 中写入一条新数据，物理写入磁盘；此刻回滚，物理删除此记录。
+还是 事物中的命令都只在代码中执行，在 commit 后一致持久化到数据库。

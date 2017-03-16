@@ -1,12 +1,28 @@
 package recursion;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 /**
  * Created by xyy on 2017/2/28.
+ *
+ * 分批处理一个集合的数据
+ *
+ *
  */
 public class Demo1 {
+
+
+    /**
+     *
+     * @param collections 集合
+     * @param batch 批次
+     * @param process 处理函数
+     */
+    public void batchProcess(Collection collections, int batch, Process process){
+
+    }
 
     private void processLogical(List<Long> ids, int batch, Process process){
         int size = ids.size();
