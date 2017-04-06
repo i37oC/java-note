@@ -17,5 +17,8 @@
         <module>db-jdbc</module>
         <module>db-mybatis</module>
         <module>logging</module>
+        <module>selenium</module>
+        <module>java-io</module>
     </modules>
+
 </project>

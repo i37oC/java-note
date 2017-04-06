@@ -3,13 +3,13 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
  http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="a" class="methodDI.A"/>
+    <bean id="a" class="xyy.java.note.spring.methodDI.A"/>
 
 
-    <bean id="amdi" class="methodDI.Amdi">
+    <bean id="amdi" class="xyy.java.note.spring.methodDI.Amdi">
         <lookup-method name="createB" bean="b"></lookup-method>
     </bean>
         <!-- collaborators and configuration for this bean go here -->
-    <bean id="b" class="methodDI.B" scope="prototype"/>
+    <bean id="b" class="xyy.java.note.spring.methodDI.B" scope="prototype"/>
     <!-- more bean definitions go here -->
 </beans>

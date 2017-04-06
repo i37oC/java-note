@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
  http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="b" class="beanPostProcessDemo.InstantiationTrackingBeanPostProcessor"/>
+    <bean id="b" class="xyy.java.note.spring.beanPostProcessDemo.InstantiationTrackingBeanPostProcessor"/>
     <!-- more bean definitions go here -->
-    <bean class="custom.Student"></bean>
+    <bean class="xyy.java.note.spring.custom.Student"></bean>
 </beans>
