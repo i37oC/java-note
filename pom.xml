@@ -19,6 +19,7 @@
         <module>logging</module>
         <module>selenium</module>
         <module>java-io</module>
+        <module>multi-thread</module>
     </modules>
 
 </project>
