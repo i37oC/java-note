@@ -10,8 +10,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>springframeworknote</module>
-        <module>httpcomponents</module>
+        <module>spring-framework</module>
+        <module>http-components</module>
         <module>design-mode</module>
         <module>algorithm</module>
         <module>db-jdbc</module>
