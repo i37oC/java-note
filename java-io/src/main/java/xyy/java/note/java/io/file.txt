@@ -1,0 +1,33 @@
+IO流（输入流，输出流）
+
+字节流、 字符流
+
+
+1、字节流
+1）InputStream、 OutputStream
+
+2) EOF = end || -1
+
+
+
+7) DataOutputStream/DataInputStream
+    对"流"功能的扩展， 可以更加方便的读取 int， long， 字符等类型数据
+
+装饰模式
+
+
+8) BufferedInputStream & BufferedOutputStream
+这两个流类为IO提供了带缓冲区的操作，一般打开文件进行写入或读取操作时，都会天上缓冲，这种流模式提供了IO的性能
+
+
+2. 字符流
+1）编码问题
+2）认识文本和文本文件
+
+java的文本：（char）是16位无符号整数，是字符的unicode编码（双字节编码） （是java内存中的字符编码吗）
+文件：byte byte byte ... 的数据序列
+文本文件： 是文本（char）序列按照某种编码方案（uft-8, utf-16be, gbk）序列化为 byte 存储在
+
+字符的处理， 一次处理一个字符
+字符的底层任然是基本的字节序列
+字符流的基本实现

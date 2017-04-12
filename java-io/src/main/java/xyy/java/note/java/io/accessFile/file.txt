@@ -1,0 +1,19 @@
+RandomAccessFile java 提供的对文件内容的访问， 既可以读文件，也可以写文件
+
+
+
+
+（1）java 文件模型
+    在硬件上的文件是 byte byte byte 存储的， 是数据的集合
+
+（2）打开文件
+    有两种模式 "rw"(读写)  "r" （只读）
+
+    RandomaccessFile raf = new RandomeAccessFile(file, "rw")
+
+    文件指针， 打开文件时 指针在开头 pointer = 0
+
+（3）写方法
+    raf.write(int) ----> 只写一个字节（后8位），同时指针指向下一个位置，准备再次写入
+（4）读方法
+    int b = raf.read() ----> 读一个字节
