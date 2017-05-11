@@ -1,10 +1,10 @@
-package scheduler;
+package xyy.java.note.webmagic.scheduler;
 
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import scheduler.component.DuplicateRemover;
-import scheduler.component.HashSetDuplicateRemover;
+import xyy.java.note.webmagic.scheduler.component.DuplicateRemover;
+import xyy.java.note.webmagic.scheduler.component.HashSetDuplicateRemover;
 import xyy.java.note.webmagic.Request;
 import xyy.java.note.webmagic.Task;
 
@@ -30,7 +30,6 @@ public abstract class DuplicateRemovedScheduler implements Scheduler {
         return this;
     }
 
-    @Override
     public void push(Request request, Task task){
         logger.trace("get a candidate url {}", request.getUrl());
 

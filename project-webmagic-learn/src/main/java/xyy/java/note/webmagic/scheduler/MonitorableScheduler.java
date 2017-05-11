@@ -1,4 +1,4 @@
-package scheduler;
+package xyy.java.note.webmagic.scheduler;
 
 import xyy.java.note.webmagic.Task;
 

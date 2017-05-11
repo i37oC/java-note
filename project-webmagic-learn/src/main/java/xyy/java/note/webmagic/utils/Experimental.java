@@ -1,4 +1,4 @@
-package utils;
+package xyy.java.note.webmagic.utils;
 
 /**
  * Stands for features unstable.

@@ -1,11 +1,11 @@
-package scheduler;
+package xyy.java.note.webmagic.scheduler;
 
 import xyy.java.note.webmagic.Request;
 import xyy.java.note.webmagic.Task;
 
 /**
  * Scheduler is the part of url management <br>
- * you can implement interface scheduler to do:
+ * you can implement interface xyy.java.note.webmagic.scheduler to do:
  *
  * manage urls to fetch
  * remove duplicate urls

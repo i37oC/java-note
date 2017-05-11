@@ -21,6 +21,9 @@
         <module>java-io</module>
         <module>multi-thread</module>
         <module>project-webmagic-learn</module>
+        <module>spring-boot</module>
     </modules>
+
+
 
 </project>

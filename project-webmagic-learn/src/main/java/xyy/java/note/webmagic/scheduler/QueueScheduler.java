@@ -1,4 +1,4 @@
-package scheduler;
+package xyy.java.note.webmagic.scheduler;
 
 import xyy.java.note.webmagic.Request;
 import xyy.java.note.webmagic.Task;
@@ -13,7 +13,7 @@ import java.util.concurrent.LinkedBlockingDeque;
  * @since 1.0
  */
 public class QueueScheduler extends DuplicateRemovedScheduler implements MonitorableScheduler{
-    private BlockingDeque<Request> queque = new LinkedBlockingDeque<Request>();
+    private BlockingDeque<Request> queque = new LinkedBlockingDeque<>();
 
     @Override
     public int getLeftReqeustsCount(Task task) {
