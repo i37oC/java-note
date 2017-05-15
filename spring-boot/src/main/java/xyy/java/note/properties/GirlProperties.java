@@ -1,4 +1,4 @@
-package xyy.java.note;
+package xyy.java.note.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

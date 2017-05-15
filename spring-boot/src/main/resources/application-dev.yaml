@@ -1,7 +1,19 @@
 server:
   port: 8080
-  context-path: /girl
+  #context-path: /girl
 girl:
   cupsize: F
   age: 18
   content: "cupSize:  ${girl.cupsize}, age: ${girl.age}"
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.91.148.227:3306/test
+    username: scrm
+    password: scrm@123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  aop:
+    auto: true
