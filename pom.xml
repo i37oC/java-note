@@ -19,9 +19,12 @@
         <module>logging</module>
         <module>selenium</module>
         <module>java-io</module>
-        <module>multi-thread</module>
+        <module>project-rbac</module>
         <module>project-webmagic-learn</module>
         <module>spring-boot</module>
+        <module>project-mybatis</module>
+        <module>project-mybatis-generator</module>
+        <module>bootstrap</module>
     </modules>
 
 
